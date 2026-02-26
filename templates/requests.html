@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container mt-4">
+  <h3>My Product Requests</h3>
+
+  <table class="table table-striped mt-3">
+    <thead class="table-success">
+      <tr>
+        <th>Request ID</th>
+        <th>Product</th>
+        <th>Quantity</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>REQ0001</td>
+        <td>Rice</td>
+        <td>300kg</td>
+        <td><span class="badge bg-warning">Pending</span></td>
+      </tr>
+      <tr>
+        <td>REQ0002</td>
+        <td>Maize</td>
+        <td>200kg</td>
+        <td><span class="badge bg-success">Accepted</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}

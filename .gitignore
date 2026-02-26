@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+database.db
+prediction_report.pdf
+models/crop_model.pkl

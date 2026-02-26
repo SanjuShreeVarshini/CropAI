@@ -1,0 +1,7 @@
+Training Accuracy: 1.0
+Testing Accuracy: 0.9954545454545455
+Accuracy: 0.9954545454545455
+Precision: 0.9956709956709957
+Recall: 0.9954545454545454
+F1 Score: 0.9954517027687758
+Training Time: 6.198
